@@ -1,13 +1,12 @@
 {
-  "name": "yt-downloader-api",
+  "name": "ytdl-core-princce",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "start": "node server.js"
   },
   "dependencies": {
-    "@distube/ytdl-core": "^1.1.0",
-    "cors": "^2.8.5",
-    "express": "^4.18.2"
+    "express": "^4.18.2",
+    "ytdl-core": "^4.11.1"
   }
 }
